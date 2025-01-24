@@ -39,6 +39,22 @@ img {
 
 /* -------------------- TEXT -------------------- */
 
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 2rem;
+}
+.section__heading {
+    font-size: 0.8rem;
+}
+.section__info {
+    font-size: 0.7rem;
+}
+
 p {
     padding-top: 1em;
 }
