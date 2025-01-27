@@ -408,11 +408,69 @@ main {
 .section__articles__frontpage {
     grid-column: 2/-1;
     grid-row: 5/6;
+
+    margin-bottom: 18rem;
 }
+.section__subheading {
+    margin-bottom: 2rem;
+}
+.section__articles__frontpage__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.2rem;
+    row-gap: 2.5rem;
+}
+
+.frontpage__article {
+    position: relative;
+}
+
+.article__abonnement {
+    position: absolute;
+    top: -1rem;
+
+    color: #ff0000;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.article__text {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+
 .section__articles__sidebar {
     grid-column: 1/2;
     grid-row: 5/6;
 }
+.article__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.article__list__item {
+    border-bottom: dotted 1px #000;
+    padding-bottom: 0.5rem;
+}
+.article__list__item:last-of-type {
+    border-bottom: none;
+}
+.article__list__link {
+    font-size: 0.9rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.article__list__link span {
+    display: block;
+
+    color: #999;
+    font-size: 0.7rem;
+    font-weight: normal;
+
+    padding-bottom: 0.2rem;
+}
+
 
 /* ---------- SECTION 4 ---------- */
 
